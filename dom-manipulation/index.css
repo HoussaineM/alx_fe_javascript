@@ -1,0 +1,41 @@
+.content-quotes {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+#newQuote {
+    margin-top: 20px;
+}
+
+#addQuote,
+#newQuote {
+    cursor: pointer;
+    background-color: rgb(165, 42, 42);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.added-quotes {
+    margin: 10px 0 10px 0;
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid rgb(36, 5, 119);
+    border-collapse: collapse;
+}
+
+#categoryFilter{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select-category{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
